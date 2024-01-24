@@ -3,11 +3,18 @@ using namespace std;
 
 int main() {
     int a, x, y;
-    char c;
+    
+    cin >> a;
+    cin.get();
+    cin >> x;
+    cin.get();
+    cin >> y;
 
-    cin >> a >> c >> x >> c >> y;
+    cout << "010-" << y << "-" << x;
 
-    cout << "010" << c << y << c << x;
+    //cin >> a >> c >> x >> c >> y;
+
+    //cout << "010" << c << y << c << x;
     // 여기에 코드를 작성해주세요.
     return 0;
 }
