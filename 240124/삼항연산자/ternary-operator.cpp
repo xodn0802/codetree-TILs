@@ -11,5 +11,12 @@ int main() {
 
     cout << b;
     // 여기에 코드를 작성해주세요.
+    //해설
+
+    //int score;
+
+    //cin >> score;
+
+    //cout << ((score == 100) ? "pass" : "failure");
     return 0;
 }
