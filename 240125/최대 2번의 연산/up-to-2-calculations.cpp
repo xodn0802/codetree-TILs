@@ -13,9 +13,7 @@ int main() {
     if (a % 2 != 0){
         a = (a + 1) / 2;
 
-        cout << a;
 
-        return 0;
     }
 
     cout << a;
