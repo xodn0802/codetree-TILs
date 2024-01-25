@@ -27,7 +27,7 @@ int main() {
             cout << a;
         }
         else {
-            cout << c;
+            cout << b;
         }
     }
         // 여기에 코드를 작성해주세요.
