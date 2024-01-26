@@ -8,7 +8,9 @@ int main() {
     cin >> a >> b;
 
     for (i = 0; 2 * i + 1 <= b; i++) {
-        cout << 2 * i + 1 << " ";
+        if(a<= 2 * i + 1){
+            cout << 2 * i + 1 << " ";
+        }
     }
 
     
