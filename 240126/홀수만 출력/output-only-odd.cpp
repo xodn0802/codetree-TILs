@@ -2,18 +2,18 @@
 using namespace std;
 
 int main() {
-    int a, b, x, i;
-
-    cin >> a >> b;
+    int a, b, i;
     
 
-    x = 2i + 1;
+    cin >> a >> b;
 
-    for (int i = 0; a <= x && x <= b;  i++){
-        cout << 2i + 1 << " ";
-        
-
+    for (i = 0; a <= 2 * i + 1 && 2 * i + 1 <= b; i++) {
+        cout << 2 * i + 1 << " ";
     }
+
+    
+
+    
         // 여기에 코드를 작성해주세요.
     return 0;
 }
