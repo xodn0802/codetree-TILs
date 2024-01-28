@@ -17,7 +17,7 @@ int main() {
             
         }
     }
-    else (a = b) {
+    else {
         cout << a;
         
     }
