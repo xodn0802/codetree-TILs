@@ -12,11 +12,17 @@ int main() {
     for (int i = a; i < b;) {
         if(i % 2 == 0) {
             i += 3;
-            cout << i << " ";
+            if(i <= b){
+                cout << i << " ";
+            }
+        
         }
         else if(i % 2 == 1) {
             i *= 2;
-            cout << i << " ";
+            if(i <= b){
+                cout << i << " ";
+            }
+        
         }
 
     }
