@@ -6,7 +6,7 @@ int main() {
     int sum = 0;
     int c = 0;
     double av;
-    cout << fixed;
+    
     cin >> a >> b;
 
     for(int i = a; i <= b; i++) {
@@ -15,8 +15,10 @@ int main() {
             c++;
         }
     }
+    av = (double)sum / c;
+    cout << fixed;
     cout.precision(1);
-    av = sum / c;
+    
     cout << sum << " " << av;
     
     // 여기에 코드를 작성해주세요.
