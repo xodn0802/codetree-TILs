@@ -12,6 +12,7 @@ int main() {
     }
     else if(b == 0){
         cout << 1;
+        return 0;
     }
     cout << prod;
     // 여기에 코드를 작성해주세요.
