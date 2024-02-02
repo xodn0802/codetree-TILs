@@ -8,7 +8,8 @@ int main() {
         for(int j = 0; j < i + 1; j++){
             cout << cnt;
             cnt++;
-            if(cnt == 'Z'){
+            if(cnt >'Z'){
+        
                 cnt = 'A';
             }
         }
