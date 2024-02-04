@@ -6,6 +6,7 @@ int main() {
         cin >> arr[i];
         if(arr[i] == 3){
             cout << arr[i - 1];
+            break;
         }
     }
     // 여기에 코드를 작성해주세요.
