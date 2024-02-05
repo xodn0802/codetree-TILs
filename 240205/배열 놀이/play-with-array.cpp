@@ -33,7 +33,7 @@ int main() {
                 cout << idx + 1 << endl;
             
             }
-            continue;
+            
         }
         else if(x == 3){
             cin >> a >> b;
