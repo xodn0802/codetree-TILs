@@ -4,7 +4,7 @@ int main() {
     int n, q, x, a, b;
     cin >> n >> q;
     int arr[100];
-    int idx = -1;
+    
 
     for(int i = 0; i < n; i++){
         cin >> arr[i];
@@ -18,6 +18,7 @@ int main() {
 
         }
         else if(x == 2){
+            int idx = -1;
             cin >> a;
             for(int i = 0; i < n; i++){
                 if(arr[i] == a){
