@@ -21,7 +21,7 @@ int main() {
             }
 
         }
-        cout << m + 1;
+        cout << m + 1 << ' ';
         end = m;
         max_val = -1;
         if (m==0){
