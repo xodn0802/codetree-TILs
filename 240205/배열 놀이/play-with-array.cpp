@@ -33,6 +33,7 @@ int main() {
                 cout << idx + 1 << endl;
             
             }
+            continue;
             
         }
         else if(x == 3){
@@ -41,7 +42,7 @@ int main() {
                 cout << arr[i - 1] << " ";
             }
             cout << endl;
-            
+            continue;
 
         }
 
