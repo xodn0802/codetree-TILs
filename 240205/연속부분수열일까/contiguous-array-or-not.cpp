@@ -17,7 +17,7 @@ int main() {
 
     for(int i = 0; i < n1; i++){
         for(int j = 0; j < n2; j++){
-            if(B[j] == A[i] && B[j + 1] == A[i + 1]){
+            if(B[j] == A[i] && B[j + j] == A[i + j]){
                 cnt++;
                 break;
             }
