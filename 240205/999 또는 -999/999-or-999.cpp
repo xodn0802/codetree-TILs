@@ -15,11 +15,13 @@ int main() {
         
     }
 
-    for(int i = 0; i < n; i++){
-        if(max_val < arr[i] && arr[i] != 999){
+    for(int i = 0; i < n - 1; i++){
+        if(max_val < arr[i]){
             max_val = arr[i];
         }
-        else if(min_val > arr[i] && arr[i] != -999){
+    }
+    for(int i = 0; i < n - 1; i++){
+        if(min_val > arr[i]){
             min_val = arr[i];
         }
     }
