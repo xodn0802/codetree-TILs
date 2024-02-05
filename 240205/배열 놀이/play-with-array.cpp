@@ -41,7 +41,7 @@ int main() {
                 cout << arr[i - 1] << " ";
             }
             cout << endl;
-            continue;
+            
 
         }
 
