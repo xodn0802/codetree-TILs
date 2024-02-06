@@ -11,7 +11,7 @@ int main() {
         int x = i + 1;
         for(int j = 0; j < n; j++){
             cout << x << " ";
-            x += 5;
+            x += n;
 
         }
         cout << endl;
