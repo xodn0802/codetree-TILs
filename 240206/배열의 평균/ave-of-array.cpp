@@ -18,7 +18,7 @@ int main() {
         for(int j = 0; j < 4; j++){
             sum += arr[i][j]; 
         }
-        av = sum / 4;
+        av = (double)sum / 4;
         cout << av << " ";
 
     }
@@ -32,7 +32,7 @@ int main() {
         for(int i = 0; i < 2; i++){
             sum += arr[i][j];
         }
-        av = sum / 2;
+        av = (double)sum / 2;
         cout << av << " ";
     }
     cout << endl;
@@ -46,7 +46,7 @@ int main() {
             sum += arr[i][j];
         }
     }
-    av = sum / 8;
+    av = (double)sum / 8;
     cout << av;
 
     // 여기에 코드를 작성해주세요.
