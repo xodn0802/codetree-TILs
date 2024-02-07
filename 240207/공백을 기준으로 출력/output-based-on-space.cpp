@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
     string st_1, st_2;
-    char output[101];
+    char output[300];
     getline(cin, st_1);
     getline(cin, st_2);
 
