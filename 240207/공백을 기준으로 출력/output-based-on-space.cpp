@@ -28,6 +28,7 @@ int main() {
             out_idx++;
         }
     }
+    output[out_idx] = '\n';
     cout << output;
 
     // 여기에 코드를 작성해주세요.
