@@ -23,10 +23,10 @@ int main() {
         cout << " No ";
     }
     if(x == true){
-        cout << "Yes ";
+        cout << "Yes";
     }
     else {
-        cout << "No ";
+        cout << "No";
     }
     
 
