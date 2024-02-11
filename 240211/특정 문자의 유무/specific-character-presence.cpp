@@ -20,7 +20,7 @@ int main() {
         cout << "Yes ";
     }
     else {
-        cout << " No ";
+        cout << "No ";
     }
     if(x == true){
         cout << "Yes";
