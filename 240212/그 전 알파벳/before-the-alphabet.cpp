@@ -6,6 +6,7 @@ int main() {
     int b = (int)a - 1;
     if(a == 'a'){
         cout << 'z';
+        return 0;
     }
     cout << (char)b;
     // 여기에 코드를 작성해주세요.
