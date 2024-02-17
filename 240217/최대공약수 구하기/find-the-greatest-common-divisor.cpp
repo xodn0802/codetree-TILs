@@ -3,7 +3,7 @@ using namespace std;
 void Prime(int n, int m) {
     int cnt;
     if(n >= m){
-        for(int i = 1; i < n; i++){
+        for(int i = 1; i <= n; i++){
             
             if(n % i == 0 && m % i == 0){
                 cnt = i;
@@ -12,7 +12,7 @@ void Prime(int n, int m) {
         cout << cnt;
     }
     else {
-        for(int i = 1; i < m; i++){
+        for(int i = 1; i <= m; i++){
             
             if(n % i == 0 && m % i == 0){
                 cnt = i;
