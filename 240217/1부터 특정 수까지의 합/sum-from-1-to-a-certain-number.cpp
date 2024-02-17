@@ -11,8 +11,7 @@ int main() {
     int x;
     cin >> x;
 
-    int cnt = Add(x);
-    cout << cnt;
+    cout << Add(x);
     // 여기에 코드를 작성해주세요.
     return 0;
 }
