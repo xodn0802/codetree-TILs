@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 void Double(int a, int b) {
-    int c = a;
-    for(int i = 0; i < b - 1; i++){
-        a *= c;
+    int cnt = 1;
+    for(int i = 1; i <= b; i++){
+        cnt *= a;
 
     }
-    cout << a;
+    cout << cnt;
 }
 int main() {
     int a, b;
