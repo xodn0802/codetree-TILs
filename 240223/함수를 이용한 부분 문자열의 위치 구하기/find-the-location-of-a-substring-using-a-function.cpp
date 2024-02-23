@@ -16,13 +16,15 @@ void Same(string a, string b){
         if(cnt == len_m){
             indx = i;
             cout << indx;
+            break;
             
         }
-        else{
-            cout << indx;
-            break;
-        }
 
+        
+
+    }
+    if(indx == -1){
+        cout << indx;
     }
 
 }
