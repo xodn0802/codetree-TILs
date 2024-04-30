@@ -1,0 +1,5 @@
+a = input().split("-")
+m = int(a[0])
+d = int(a[1])
+y = int(a[2])
+print(f"{y}.{m}.{d}")
