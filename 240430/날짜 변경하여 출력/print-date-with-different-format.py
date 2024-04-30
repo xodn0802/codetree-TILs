@@ -1,0 +1,5 @@
+a = input().split(".")
+y = int(a[0])
+m = int(a[1])
+d = int(a[2])
+print(f"{m}-{d}-{y}")
