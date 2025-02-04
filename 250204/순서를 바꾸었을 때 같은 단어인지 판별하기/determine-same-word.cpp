@@ -14,13 +14,25 @@ int main() {
 
     sort(word1.begin(),word1.end());
     sort(word2.begin(),word2.end());
-    
-    for(int i = 0; i < word1.length(); i++){
-        if(word1[i] != word2[i]){
-            same = false;
-            break;
+
+    if(word1.length() >= word2.length()){
+        for(int i = 0; i < word1.length(); i++){
+            if(word1[i] != word2[i]){
+                same = false;
+                break;
+            }   
         }
     }
+    else{
+        for(int i = 0; i < word2.length(); i++){
+            if(word1[i] != word2[i]){
+                same = false;
+                break;
+            }  
+        }
+    }
+    
+
 
     if(same){
         cout << "Yes" << endl;
