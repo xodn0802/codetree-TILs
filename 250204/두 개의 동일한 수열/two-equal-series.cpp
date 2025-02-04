@@ -9,7 +9,7 @@ int A[100];
 int B[100];
 
 int main() {
-    bool same;
+    bool same = true;
     cin >> n;
 
     for (int i = 0; i < n; i++) {
@@ -25,17 +25,12 @@ int main() {
     sort(B, B + n);
 
     for(int i = 0; i < n; i++){
-        if(A[i] == B[i]){
-            same = true;
-        }
-        else{
+        if(A[i] != B[i]){
             same = false;
+            break;
         }
     }
     if(same == true){
-        cout << "Yes" << endl;
-    }
-    else if(n == 0){
         cout << "Yes" << endl;
     }
     else{
