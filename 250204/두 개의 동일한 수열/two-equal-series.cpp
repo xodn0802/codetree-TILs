@@ -9,7 +9,7 @@ int A[100];
 int B[100];
 
 int main() {
-    bool same = true;
+    bool same;
     cin >> n;
 
     for (int i = 0; i < n; i++) {
@@ -33,6 +33,9 @@ int main() {
         }
     }
     if(same == true){
+        cout << "Yes" << endl;
+    }
+    else if(n == 0){
         cout << "Yes" << endl;
     }
     else{
