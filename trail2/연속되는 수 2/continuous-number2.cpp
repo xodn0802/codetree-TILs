@@ -4,7 +4,7 @@ using namespace std;
 
 int N;
 int arr[1000];
-int cnt = 0;
+int cnt = 1;
 int a = 0;
 
 
@@ -17,10 +17,10 @@ int main() {
             cnt++;
         }else{
            a=max(a,cnt);
-           cnt=0;
+           cnt=1;
         }
     }
-    cout << a+1;
+    cout << a;
 
     
 
