@@ -13,13 +13,17 @@ int main() {
     
     for (int i = 0; i < N; i++) {
         cin >> arr[i];
-        if(i == 0 || arr[i] == arr[i-1]){
+        if(i > 0){
+            if(arr[i] == arr[i-1]){
             cnt++;
         }else{
            a=max(a,cnt);
            cnt=1;
         }
+        }
+        
     }
+    a = max(a,cnt);
     cout << a;
 
     
