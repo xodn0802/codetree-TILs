@@ -13,8 +13,7 @@ int main() {
 
     // Please write your code here.
     for(int i = 0; i < N; i++){
-        for(int j = 0; j < N; j++){
-            if(grid[i][j+2] >= N) continue;
+        for(int j = 0; j < N-2; j++){
             max_cnt = max(max_cnt,grid[i][j] + grid[i][j+1] + grid[i][j+2]);
         }
     }
