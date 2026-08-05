@@ -16,9 +16,9 @@ int main() {
     int y = r;
     int dir;
     if(d == 'U'){
-        dir = 1;
-    }else if(d == 'D'){
         dir = 3;
+    }else if(d == 'D'){
+        dir = 1;
     }else if(d == 'R'){
         dir = 0;
     }else{
@@ -26,9 +26,7 @@ int main() {
     }
 
     for(int i = 0; i < t; i++){
-        
         int nx = x + dx[dir];
-    
         int ny = y + dy[dir];
     
         if(nx > n || nx < 1){
