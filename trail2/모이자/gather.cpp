@@ -5,7 +5,7 @@ using namespace std;
 int n;
 int A[100];
 int diffsum = 0;
-int min_val = 10000;
+int min_val = 1000000;
 
 int main() {
     cin >> n;
