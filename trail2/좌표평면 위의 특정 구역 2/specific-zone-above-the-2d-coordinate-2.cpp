@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <cmath>
 using namespace std;
 
 int N;
@@ -11,7 +11,7 @@ int main() {
     for (int i = 0; i < N; i++) {
         cin >> x[i] >> y[i];
     }
-    double min_sq = 1600000000;
+    long long min_sq = 4000000000000000000LL;
     for(int i = 0; i < N; i++){
         int max_x = 0;
         int max_y = 0;
@@ -25,7 +25,7 @@ int main() {
             }
             
         }
-        double xy = max_x * max_y;
+        long long xy = max_x * max_y;
         min_sq = min(min_sq,xy);
     }
     cout << min_sq;
